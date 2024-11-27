@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "password123",
+      "profile": {
+        "fullName": "John Doe",
+        "phone": "+1-555-0123",
+        "preferences": {
+          "notifications": true,
+          "newsletter": true
+        },
+        "bookingHistory": [
+          {
+            "id": "B001",
+            "type": "hotel",
+            "name": "Luxury Palace Hotel",
+            "date": "2024-02-15",
+            "status": "completed"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "password456",
+      "profile": {
+        "fullName": "Jane Smith",
+        "phone": "+1-555-0124",
+        "preferences": {
+          "notifications": false,
+          "newsletter": true
+        },
+        "bookingHistory": [
+          {
+            "id": "B002",
+            "type": "activity",
+            "name": "City Walking Tour",
+            "date": "2024-02-20",
+            "status": "upcoming"
+          }
+        ]
+      }
+    }
+  ]
+}

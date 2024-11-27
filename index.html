@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TravelEase - Your One Stop Tourism Solution</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/services.css">
+        <link rel="stylesheet" href="css/booking.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">All-In-One-TrevaelEase</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#booking">Book Now</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Your Complete Travel Companion</h1>
+            <p>One platform for all your travel needs - Hotels, Transport, Activities, and more!</p>
+            <button class="cta-button">Start Planning</button>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="hotels">
+                    <h3>Hotels</h3>
+                    <p>Find and book the perfect accommodation</p>
+                </div>
+                <div class="service-card" data-service="transport">
+                    <h3>Transport</h3>
+                    <p>Local transport and car rentals</p>
+                </div>
+                <div class="service-card" data-service="activities">
+                    <h3>Activities</h3>
+                    <p>Discover local events and attractions</p>
+                </div>
+                <div class="service-card" data-service="guides">
+                    <h3>Tour Guides</h3>
+                    <p>Expert local guides for your journey</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking">
+            <h2>Quick Booking</h2>
+            <div class="booking-form">
+                <div class="form-group">
+                    <label for="destination">Where to?</label>
+                    <input type="text" id="destination" placeholder="Enter destination">
+                </div>
+                <div class="form-group">
+                    <label for="dates">When?</label>
+                    <input type="date" id="dates">
+                </div>
+                <div class="form-group">
+                    <label for="service-type">What do you need?</label>
+                    <select id="service-type">
+                        <option value="all">All Services</option>
+                        <option value="hotel">Hotel Only</option>
+                        <option value="transport">Transport Only</option>
+                        <option value="activities">Activities Only</option>
+                    </select>
+                </div>
+                <button class="search-button">Search</button>
+            </div>
+        </section>
+
+        <section class="search-results">
+            <h2>Search Results</h2>
+            <div class="results-grid">
+                <!-- Results will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@travelease.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TravelEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
